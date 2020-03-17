@@ -6,4 +6,4 @@ This is borrowing heavily from the XXXX plugin written by XXX.
 
 Makes a few tweaks so it can handle single-colour images with more bit-depth and easier to draw the grid. 
 
-![](images/gridimage.png)
+![](images/movie.mp4)
