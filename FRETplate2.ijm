@@ -18,7 +18,7 @@ nc=12; nr=8; xo=192; yo=150; xf=1180; yf=784; csize=40;
  run("Remove Overlay");
 //////////////////////////////////////////////////////////////////////////////////////////
 
-waitForUser("Draw a straight line from the middle of A1 to the moiddle of A12 and press OK.");
+waitForUser("Draw a straight line from the middle of A1 to the middle of A12 and press OK.");
 
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -90,7 +90,7 @@ for (i=0; i<nr; i++) {
 			xadj = dhx / 7;
 			yadj = dhy / 11;
 	        makeOval(xo-csize/2+j*(csepx), yo-csize/2+i*(csepy), csize, csize);
-                	run("Measure");
+                	run("Measure", medi);
                 	intensity = getResult("Mean");
 	setResult("Row", nResults-1, row);
 	setResult("Column", nResults-1, j+1);
