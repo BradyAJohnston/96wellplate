@@ -90,7 +90,7 @@ for (i=0; i<nr; i++) {
 			xadj = dhx / 7;
 			yadj = dhy / 11;
 	        makeOval(xo-csize/2+j*(csepx), yo-csize/2+i*(csepy), csize, csize);
-                	run("Measure", medi);
+                	run("Measure");
                 	intensity = getResult("Mean");
 	setResult("Row", nResults-1, row);
 	setResult("Column", nResults-1, j+1);
