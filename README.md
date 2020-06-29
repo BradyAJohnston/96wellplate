@@ -14,7 +14,7 @@ Steps as follows:
 5. Save results.csv to folder location of choice.
 
 ## Prompt Box
-![](imgages/dialoguebox.png "")
+![Prompt Box](images/dialoguebox.png "Prmopt Box")
 
 ## Example Grid
 ![Example Grid Image](images/gridimage.png "Title Text")
